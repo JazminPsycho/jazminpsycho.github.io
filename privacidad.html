@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad · Bastión</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main>
+    <header><a href="index.html">Bastión · Lumbre Systems</a></header>
+    <h1>Política de privacidad</h1>
+    <p class="intro">Cómo se usan los datos de Google Drive en Bastión.</p>
+
+    <h2>Acceso y uso</h2>
+    <p>El titular de la cuenta de Google autoriza a rclone con el permiso <code>drive.file</code>. Bastión usa ese acceso para crear carpetas de respaldo, copiar archivos, consultar nombres y tamaños y descargar versiones para restaurarlas. El alcance cubre los archivos usados con esta aplicación.</p>
+
+    <h2>Almacenamiento y transferencia</h2>
+    <p>Los archivos de respaldo se transfieren entre Bastión y la cuenta de Google Drive autorizada. En las copias configuradas con rclone crypt, Bastión cifra el contenido y los nombres antes de la transferencia y los descifra al restaurar.</p>
+    <p>Los tokens de autorización se guardan en Bastión en un archivo con acceso restringido. Los registros de ejecución guardan resultados, tiempos y comprobaciones de integridad. Cada versión permanece en Drive hasta que su titular decida eliminarla.</p>
+
+    <h2>Control del acceso</h2>
+    <p>El titular puede revocar el permiso de Bastión desde las conexiones de su cuenta de Google. Conserva el control de las versiones ya guardadas en Drive.</p>
+    <p><a href="https://myaccount.google.com/connections">Administrar las conexiones de Google</a></p>
+
+    <h2>Uso limitado y contacto</h2>
+    <p>Los datos recibidos de Google se usan para respaldar y restaurar los archivos del titular. El uso de esos datos se rige por la política de datos de usuario de las APIs de Google, incluidos sus requisitos de uso limitado.</p>
+    <p><a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de Google</a></p>
+    <p>Para consultas sobre Bastión, usá el correo de soporte que aparece en la pantalla de autorización de Google.</p>
+  </main>
+</body>
+</html>
